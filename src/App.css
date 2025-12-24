@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+
+.fieldview {
+  /* border: 1px solid white; */
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transform: rotate(45deg);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  z-index: 1;
+  align-items: center;
+  justify-items: center;
+}
+
+.bagview {
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+}
